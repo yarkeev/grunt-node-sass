@@ -1,10 +1,10 @@
 {
   "name": "grunt-node-sass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "grunt task for compile sass styles by node-sass",
-  "main": "index.js",
+  "main": "tasks/node-sass.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
