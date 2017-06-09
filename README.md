@@ -14,7 +14,6 @@ grunt.loadNpmTasks('grunt-node-sass');
 
 ## Example:
 
-Example:
 ```js
 sass: {
     dist: {
