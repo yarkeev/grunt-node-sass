@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "grunt task for compile sass styles by node-sass",
   "main": "tasks/node-sass.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yarkeev/grunt-node-sass.git"
