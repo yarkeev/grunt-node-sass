@@ -1,10 +1,10 @@
 {
   "name": "grunt-node-sass",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "grunt task for compile sass styles by node-sass",
   "main": "tasks/node-sass.js",
   "scripts": {
-
+    "prepublishOnly": "bump"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   "homepage": "https://github.com/yarkeev/grunt-node-sass#readme",
   "dependencies": {
     "fs-extra": "^3.0.1",
-    "node-sass": "^4.5.3"
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^6.1.0"
   }
 }
