@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs-extra');
-const sass = require('node-sass');
+const sass = require('sass');
 
 module.exports = function (grunt) {
     grunt.registerMultiTask('sass', 'compile sass', function () {
